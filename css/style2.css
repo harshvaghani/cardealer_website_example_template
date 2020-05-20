@@ -685,17 +685,17 @@
                 }
                 
                 .card1:nth-child(1) circle:nth-child(2) {
-                    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+                    stroke-dashoffset: calc(440 - (440 * 92) / 100);
                     stroke: #00ff43;
                 }
                 
                 .card1:nth-child(2) svg circle:nth-child(2) {
-                    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+                    stroke-dashoffset: calc(440 - (440 * 91) / 100);
                     stroke: #00a1ff;
                 }
                 
                 .card1:nth-child(3) svg circle:nth-child(2) {
-                    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+                    stroke-dashoffset: calc(440 - (440 * 98) / 100);
                     stroke: #ff04f3;
                 }
                 /* new  */
@@ -713,6 +713,11 @@
                     justify-content: center;
                     flex-direction: row;
                     margin: 24px auto;
+                    margin-left: 12px;
+                }
+                
+                .box10 h2 {
+                    font-family: 'Raleway', sans-serif;
                 }
                 
                 .container3 .box10 {
@@ -989,4 +994,9 @@
                 
                 .footer-section-contact #textarea::placeholder {
                     color: white;
+                }
+                
+                .myinfo i {
+                    display: block;
+                    font-size: 23px;
                 }
