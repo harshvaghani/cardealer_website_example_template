@@ -23,15 +23,3 @@ function click1() {
 
     }
 }
-
-function ok2() {
-    window.open("fastfood.html ");
-}
-
-function ok3() {
-    window.open("salad.html ");
-}
-
-function ok4() {
-    window.open("delivery.html ");
-}
