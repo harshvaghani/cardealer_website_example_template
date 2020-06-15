@@ -11,7 +11,6 @@
  .main {
      display: flex;
      align-items: center;
-     /* justify-content: center; */
      flex-direction: row;
  }
  
@@ -22,7 +21,7 @@
  .main ul li {
      list-style: none;
  }
- /* a */
+
  
  .main ul li a {
      font-size: 24px;
@@ -100,7 +99,7 @@
      color: white;
      text-decoration: none;
  }
- /* paragraph css */
+
  
  #para2 {
      display: none;
@@ -424,12 +423,6 @@
  #compare::before {
      content: '';
      position: absolute;
-     /* background-color: black;
-     background: linear-gradient(grey, #7a6c64 80%);
-     background: linear-gradient(45deg, #868f96, #596164) no-repeat;
-     background: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-     background: linear-gradient(62deg, #FBAB7E 10%, rgb(255, 228, 161) 100%); */
-     /* background: url('../Img/pizza.jpg') no-repeat center center/cover; */
      background-color: #162c3b;
      width: 100%;
      height: 40%;
